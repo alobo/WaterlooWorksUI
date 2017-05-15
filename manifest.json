@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Better UI For WaterlooWorks",
+    "version": "0.1.0",
+    "description": "Fixes the table on the job posting screen",
+
+    "content_scripts": [
+        {
+            "css": ["styles.css"],
+            "js": ["content.js"],
+            "matches": ["https://waterlooworks.uwaterloo.ca/myAccount/co-op/coop-postings.htm"]
+        }
+    ]
+}

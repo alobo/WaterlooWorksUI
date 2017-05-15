@@ -1,0 +1,24 @@
+/*Allow text to wrap, now the table fits properly on a screen*/
+#postingsTable {
+    white-space: normal !important;
+}
+
+/*Hide ID Column*/
+#postingsTable td:nth-child(2),th:nth-child(2) {
+    display: none;
+}
+
+/*Hide org division*/
+#postingsTable td:nth-child(5),th:nth-child(5) {
+    display: none;
+}
+
+/*internal status*/
+#postingsTable td:nth-child(7),th:nth-child(7) {
+    display: none;
+}
+
+/*Hide Location (City is good enough)*/
+#postingsTable td:nth-child(8),th:nth-child(8) {
+    display: none;
+}
